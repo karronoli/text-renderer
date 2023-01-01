@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E1760173-832C-45B5-9746-7319C4E18809}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "App", "src\App\App.fsproj", "{1A90D50B-AF5F-4525-A29E-E8B2D2616FD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A90D50B-AF5F-4525-A29E-E8B2D2616FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A90D50B-AF5F-4525-A29E-E8B2D2616FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A90D50B-AF5F-4525-A29E-E8B2D2616FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A90D50B-AF5F-4525-A29E-E8B2D2616FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A90D50B-AF5F-4525-A29E-E8B2D2616FD9} = {E1760173-832C-45B5-9746-7319C4E18809}
 	EndGlobalSection
 EndGlobal
